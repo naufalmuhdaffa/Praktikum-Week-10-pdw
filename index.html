@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorem</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <nav class="bg-white shadow-md fixed top-0 left-0 right-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <span class="text-xl font-bold text-blue-600">Lorem</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#hero" class="text-gray-700 hover:text-blue-500">Hero</a>
+          <a href="#card" class="text-gray-700 hover:text-blue-500">Card</a>
+          <a href="#content" class="text-gray-700 hover:text-blue-500">Content</a>
+          <a href="#maps" class="text-gray-700 hover:text-blue-500">Maps</a>
+        </div>
+        <div class="md:hidden flex items-center">
+          <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+      <a href="#hero" class="block py-2 text-gray-700 hover:text-blue-500">Hero</a>
+      <a href="#card" class="block py-2 text-gray-700 hover:text-blue-500">Card</a>
+      <a href="#content" class="block py-2 text-gray-700 hover:text-blue-500">Content</a>
+      <a href="#maps" class="block py-2 text-gray-700 hover:text-blue-500">Maps</a>
+    </div>
+  </nav>
+
+  <section class="pt-20 px-4" id="hero">
+    <div
+      class="max-w-4xl mx-auto h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white text-center p-6">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-2">Lorem</h1>
+      <p class="text-base sm:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi culpa nam quasi
+        blanditiis eum tempore adipisci sint, asperiores quo quod mollitia aperiam illum. Sint laborum nulla a
+        voluptates molestias laudantium!</p>
+    </div>
+  </section>
+
+  <section class="mt-10 text-center px-4" id="card">
+    <h6 class="text-gray-600 text-lg">Cupcake macaroon jelly beans jelly sweet roll cake.</h6>
+  </section>
+
+  <section class="mt-10 max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">Whatever</h3>
+      <p class="text-gray-600">Whatever biodiesel chambray, crucifix iceland health goth put a bird on it.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">Pivot</h3>
+      <p class="text-gray-600">Pivot viral MVP disruptive innovator lean startup burn rate.</p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">Bacon</h3>
+      <p class="text-gray-600">Bacon ipsum dolor amet brisket kielbasa tri-tip.</p>
+    </div>
+  </section>
+
+  <section class="mt-16 px-4" id="content">
+    <div
+      class="max-w-4xl mx-auto h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] bg-white border rounded-xl shadow-md p-6 flex flex-col justify-center text-center">
+      <h2 class="text-2xl font-bold mb-2">Office Ipsum</h2>
+      <p class="text-gray-600">Synergize scalable paradigms and leverage bleeding-edge deliverables to streamline
+        business processes and drive innovation across the board.</p>
+    </div>
+  </section>
+
+  <section class="mt-16 max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-center" id="maps">
+    <div class="w-full h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.3506340709435!2d110.3632115153834!3d-7.841708294358016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5780ae09bdf1%3A0x2a9a7d939111ed45!2sUniversitas%20Gadjah%20Mada!5e0!3m2!1sen!2sid!4v1629887967801!5m2!1sen!2sid"
+        class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div>
+      <h3 class="text-2xl font-bold mb-2">Loremz</h3>
+      <p class="text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa unde in nisi libero eius, debitis similique ipsum eligendi. Quidem harum doloribus natus maxime, explicabo iste, deleniti numquam iusto fuga consequuntur nulla ratione eveniet rem accusantium vero pariatur. Debitis est consequatur temporibus rerum aut eaque dolores asperiores, tempore officiis corporis cumque, ab, eum dicta. Accusamus reiciendis eligendi, saepe magnam, necessitatibus repellendus in aperiam ex facere dolore neque eveniet placeat veritatis ea asperiores dicta? Provident error in facilis voluptates perspiciatis qui non velit debitis nam sunt omnis aut maiores deleniti corporis ducimus quas quaerat laboriosam, unde quae nesciunt possimus. Optio, officiis placeat.</p>
+    </div>
+  </section>
+
+  <footer class="mt-16 bg-gray-800 text-white py-6">
+    <div class="text-center text-sm">
+      <p>&copy; 2025 Lorem. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+
+</html>
